@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/todo" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/background"
+        android:hint="@string/entrer_votre_e_mail"
+
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/motDePasse"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/background"
+        android:hint="@string/entrer_votre_mot_de_passe"
+
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/seConnecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="@string/se_connecter"
+        android:backgroundTint="@color/teal_700"
+        />
+    <ProgressBar
+        android:id="@+id/enCours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/vous_n_avez_pas_de_compte_enregistrez_vous"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+
+
+        />
+
+</LinearLayout>

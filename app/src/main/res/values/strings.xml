@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">alloDOC</string>
+    <string name="allo_mon_docteur">ALLO MON DOCTEUR !</string>
+    <string name="todo">TODO</string>
+    <string name="vous_sentez_malade_vous_cherchez_un_m_decin_pour_une_consultation_en_ligne_ou_domicile_ici_vous_trouverez_ce_que_vous_cherchez">Vous sentez malade ? Vous cherchez un médecin pour une consultation en ligne ou à domicile ?ICI , vous trouverez ce que vous cherchez .</string>
+    <string name="entrer_votre_e_mail">Entrer votre e-mail</string>
+    <string name="entrer_votre_mot_de_passe">Entrer votre mot de passe</string>
+    <string name="se_connecter">se connecter</string>
+    <string name="vous_n_avez_pas_de_compte_enregistrez_vous">Vous n’avez pas de compte ? Enregistrez-vous</string>
+</resources>
