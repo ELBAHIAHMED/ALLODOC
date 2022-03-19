@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="130dp"
         android:src="@drawable/logo"
         android:contentDescription="@string/todo" />
 
@@ -39,6 +39,21 @@
         android:inputType="textPassword"
         android:paddingStart="20dp"
         android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/mdpOblié"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="mot de passe oublié ?"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="15dp"
+
+
+
+        />
 
     <Button
         android:id="@+id/seConnecter"
@@ -65,9 +80,8 @@
         android:text="@string/vous_n_avez_pas_de_compte_enregistrez_vous"
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
 
 
 

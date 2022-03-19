@@ -5,9 +5,10 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/drawable/eclipse.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/drawable/shape_button.xml" value="0.206" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_choix_consultation.xml" value="0.2546875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_connexion.xml" value="0.2390625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_inscription.xml" value="0.268" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
