@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlloDOC">
         <activity
+            android:name=".signinGOOGLE"
+            android:exported="false" />
+        <activity
+            android:name=".connexionDOCTOR"
+            android:exported="false" />
+        <activity
             android:name=".ChoixConsultation"
             android:exported="false" />
         <activity

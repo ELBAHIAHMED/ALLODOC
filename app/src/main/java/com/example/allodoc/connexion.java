@@ -26,12 +26,14 @@ public class connexion extends AppCompatActivity {
     TextView compte , mdpOblié;
     EditText email , motDePasse;
     Button seConnecter;
+    Button gmail ;
     ProgressBar enCours ;
     FirebaseAuth firebaseAuth ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connexion);
+        gmail = findViewById(R.id.gmail);
         email = findViewById(R.id.email);
         motDePasse = findViewById(R.id.motDePasse);
         compte = findViewById(R.id.compte);
@@ -66,6 +68,13 @@ public class connexion extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+        gmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(connexion.this ,signinGOOGLE.class);
+                startActivity(intent);
             }
         });
         compte.setOnClickListener(new View.OnClickListener() {

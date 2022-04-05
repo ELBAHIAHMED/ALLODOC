@@ -20,7 +20,7 @@
         android:layout_marginLeft="63dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="left"
-        android:visibility="gone"
+        android:visibility="visible"
 
         />
     <Button
@@ -32,7 +32,7 @@
         android:padding="15dp"
         android:text="Verifier maintenant"
         android:backgroundTint="@color/black"
-        android:visibility="gone"
+        android:visibility="visible"
 
         />
 
