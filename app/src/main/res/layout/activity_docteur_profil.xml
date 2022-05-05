@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.allodocc.Docteur_Profil"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imgDoc"
+        android:layout_width="367dp"
+        android:layout_height="322dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/editborder"
+
+        android:padding="20dp"
+        android:src="@drawable/nurse1" />
+
+    <TextView
+        android:id="@+id/NameDoc"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Dr EL BAHI AHMED"
+        android:textAlignment="center"
+        android:textColor="#171616"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/SpecialiteDoc"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="Dermatologue"
+        android:textAlignment="center"
+        android:textColor="#3C3B3B"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Patients"
+        android:layout_width="109dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/SpecialiteDoc"
+        android:layout_alignEnd="@+id/SpecialiteDoc"
+        android:layout_alignBottom="@+id/SpecialiteDoc"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="-61dp"
+        android:text="Patients"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Experience"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/Patients"
+        android:layout_alignTop="@+id/Patients"
+        android:layout_alignEnd="@+id/Patients"
+        android:layout_alignBottom="@+id/Patients"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Experience"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/Prix"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Experience"
+        android:layout_alignTop="@+id/Experience"
+        android:layout_alignEnd="@+id/Experience"
+        android:layout_alignBottom="@+id/Experience"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="-117dp"
+        android:layout_marginBottom="-4dp"
+        android:text="Prix"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/NmrPatients"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Patients"
+        android:layout_alignTop="@+id/Patients"
+        android:layout_alignEnd="@+id/Patients"
+        android:layout_alignBottom="@+id/Patients"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-43dp"
+        android:text="15"
+        android:textAlignment="center"
+        android:textColor="#020202"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/NumExperience"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Experience"
+        android:layout_alignBottom="@+id/Experience"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="-44dp"
+        android:layout_toStartOf="@+id/NumPrix"
+        android:layout_toEndOf="@+id/NmrPatients"
+        android:text="5ans"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/NumPrix"
+        android:layout_width="84dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/Prix"
+        android:layout_alignStart="@+id/Prix"
+        android:layout_alignBottom="@+id/Prix"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="-45dp"
+        android:text="300 Dh"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="17dp" />
+
+
+    <Button
+        android:id="@+id/MettreEnContact"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="15dp"
+        android:text=" se Mettre en Contact" />
+
+</RelativeLayout>

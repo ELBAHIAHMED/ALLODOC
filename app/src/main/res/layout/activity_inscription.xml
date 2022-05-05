@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+android:layout_gravity="center"
+
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="serif"
+    android:text="BIENVENUE "
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:textColor="#00BCD4"
+    android:textSize="24sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="113dp"
+
+
+
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enregistrez-vous"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:textAlignment="center"
+    style="@style/TextAppearance.Material3.TitleSmall"
+    />
+
+    <EditText
+        android:id="@+id/nomComplet"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Entrer votre nom"
+        android:inputType="textAutoComplete"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Entrer votre e-mail"
+
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/motDePasse"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Entrer votre mot de passe"
+
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/confirmMotDePasse"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="confirmer votre mot de passe"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+<Button
+    android:id="@+id/enregistrer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:padding="15dp"
+    android:text="enregistrer"
+    android:backgroundTint="@color/teal_700"
+    />
+    <ProgressBar
+        android:id="@+id/enCours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/compte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Avez vous déjà un compte? connectez-vous "
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+
+
+        />
+
+</LinearLayout>

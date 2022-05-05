@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "283882321425",
+    "project_id": "allodoc-d4256",
+    "storage_bucket": "allodoc-d4256.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283882321425:android:7f9b63e4f54430784ce3b0",
+        "android_client_info": {
+          "package_name": "com.example.allodoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283882321425-724sim78ikj2jl9def6r9egdr1uj1mi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yN7itnJU3ibGVtgTotDacOVsQuvtr5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283882321425-724sim78ikj2jl9def6r9egdr1uj1mi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

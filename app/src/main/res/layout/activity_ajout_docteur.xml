@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="NOUVEAU DOCTEUR "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#00BCD4"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="113dp"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/nomDocteur"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Nom "
+        android:inputType="textAutoComplete"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/emailDocteur"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint=" e-mail"
+
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/mdpDocteur"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="mot de passe "
+
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/specialite"
+        android:layout_width="279dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="spécialité"
+        android:entries="@array/spécialité"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/enregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="enregistrer"
+        android:backgroundTint="@color/teal_700"
+        />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+package com.example.allodocc;
+
+import com.google.firebase.storage.StorageReference;
+
+public class DataModal {
+
+    // variables for storing our image and name.
+    private String name;
+    private String Specialite;
+    private String Prix;
+
+    public String getUID() {
+        return UID;
+    }
+
+    public void setUID(String UID) {
+        this.UID = UID;
+    }
+
+    private String UID ;
+
+
+
+    public String getSpecialite() {
+        return Specialite;
+    }
+
+    public void setSpecialite(String specialite) {
+        Specialite = specialite;
+    }
+
+    public String getPrix() {
+        return Prix;
+    }
+
+    public void setPrix(String prix) {
+        Prix = prix;
+    }
+
+
+
+
+
+    // getter and setter methods
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+
+
+}
