@@ -8,7 +8,7 @@ public class DataModal {
     private String name;
     private String Specialite;
     private String Prix;
-
+    private String typeConsultation ;
     public String getUID() {
         return UID;
     }
@@ -19,7 +19,13 @@ public class DataModal {
 
     private String UID ;
 
+    public String getTypeConsultation() {
+        return typeConsultation;
+    }
 
+    public void setTypeConsultation(String typeConsultation) {
+        this.typeConsultation = typeConsultation;
+    }
 
     public String getSpecialite() {
         return Specialite;

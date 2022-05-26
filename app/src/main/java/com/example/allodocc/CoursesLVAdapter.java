@@ -88,12 +88,14 @@ public class CoursesLVAdapter extends ArrayAdapter<DataModal> {
                 String Specialite = dataModal.getSpecialite();
                 String Prix = dataModal.getPrix();
                 String UID = dataModal.getUID();
+                String typeConsultation = dataModal.getTypeConsultation();
 
               //  StorageReference storageReference = dataModal.getStorageReference();
                 intent.putExtra("Name", Name);
                 intent.putExtra("Specialite",Specialite);
                 intent.putExtra("Prix",Prix);
                 intent.putExtra("UID",UID);
+                intent.putExtra("typeConsultation",typeConsultation);
                 getContext().startActivity(intent);
 
                 Toast.makeText(getContext(), "Item clicked is : " + dataModal.getName(), Toast.LENGTH_SHORT).show();

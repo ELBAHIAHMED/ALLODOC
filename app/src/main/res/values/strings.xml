@@ -17,7 +17,7 @@
     <string name="pick_place">Choose a place</string>
     <string name="title_activity_placepicker2">placepicker2</string>
     <string-array name="spécialité">
-        <item>choisir votre spécialité</item>
+        <item>choisir la spécialité</item>
         <item>dentiste</item>
         <item>dermatologue</item>
         <item>cardiologue</item>

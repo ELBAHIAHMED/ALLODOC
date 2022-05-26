@@ -36,6 +36,7 @@ public class Docteur_Profil extends AppCompatActivity {
         String Specialite = intent.getStringExtra("Specialite");
         String Prix = intent.getStringExtra("Prix");
         String UID = intent.getStringExtra("UID");
+        String typeConsultation = intent.getStringExtra("typeConsultation");
         StorageReference storageReference ;
         storageReference= FirebaseStorage.getInstance().getReference();
         StorageReference profileRef = storageReference.child("docteurs/"+UID+"/profile.jpg") ;
@@ -45,14 +46,18 @@ public class Docteur_Profil extends AppCompatActivity {
                 Picasso.get().load(uri).into(imageDoc);
             }
         });
-        //String imgUrl = "https://www.pngplay.com/wp-content/uploads/7/Nurse-Transparent-PNG.png";
+
         SpecialiteDoc.setText(Specialite);
         PrixDoc.setText(Prix);
-       // Picasso.get().load(imgUrl).into(imageDoc);
         DocName.setText("Dr "+Name);
         MettreEnContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (typeConsultation.equals("en ligne")){
+
+                }else if (typeConsultation.equals("à domicile ")){
+
+                }
 
             }
         });

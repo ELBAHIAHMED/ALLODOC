@@ -83,6 +83,7 @@ public class Liste_Docteur extends AppCompatActivity {
                             List<DocumentSnapshot> list = queryDocumentSnapshots.getDocuments();
                             for (DocumentSnapshot d : list) {
                                 DataModal dataModal = d.toObject(DataModal.class);
+                                dataModal.setTypeConsultation(TypeConsultation);
                                 dataModalArrayList.add(dataModal);
                             }
                             // after that we are passing our array list to our adapter class.
