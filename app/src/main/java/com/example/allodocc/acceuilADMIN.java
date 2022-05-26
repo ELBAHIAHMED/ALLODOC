@@ -11,7 +11,7 @@ import com.example.allodoc.R;
 
 public class acceuilADMIN extends AppCompatActivity {
     Button nvdocteur ;
-
+    //admin
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
