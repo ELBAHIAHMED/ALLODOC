@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyChatAppTutorial">
-        <activity android:name=".specificchat"></activity>
+        <activity
+            android:name=".payment"
+            android:exported="false" />
+        <activity android:name=".specificchat" />
         <activity android:name=".UpdateProfile" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".chatActivity" />
