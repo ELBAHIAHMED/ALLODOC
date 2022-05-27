@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="serif"
-        android:text="Numéro de carte de paiement"
+        android:text="Numéro de carte de paiement "
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
         android:textColor="@color/black"
         android:textSize="16sp"
