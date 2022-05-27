@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    >
+
+
+    <TextView
+        android:id="@+id/mdpOblié"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Payer Votre Docteur"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+
+        />
+
+    <ImageView
+        android:layout_width="429dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/creditcardmed" />
+
+    <TextView
+        android:id="@+id/nameofusertext"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Nom du porteur de la carte"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+    <EditText
+        android:id="@+id/nameofuser"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Nom du porteur de la carte"
+        android:textSize="14dp"
+
+
+        android:inputType=""
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/cardnumbertext"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Numéro de carte de paiement"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+    <EditText
+        android:id="@+id/cardnumber"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/background"
+        android:hint="Numéro de carte de paiement"
+        android:textSize="14dp"
+
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/expdatetext"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:fontFamily="serif"
+        android:layout_marginLeft="30dp"
+        android:text="Date d'expiration"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+    <EditText
+        android:id="@+id/expdate"
+        android:layout_width="130dp"
+        android:layout_height="37dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="@color/background"
+        android:hint="11/2022"
+        android:textSize="14dp"
+
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="-70"
+        android:fontFamily="serif"
+        android:text="Code de vérification"
+        android:layout_marginRight="48dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/codeverification"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/background"
+        android:hint="540"
+        android:textSize="14dp"
+
+
+        android:inputType="date"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/compte"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:text="Code de vérification"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/zipcode"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:textSize="14dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/background"
+        android:hint="430"
+
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+
+    <ProgressBar
+        android:id="@+id/enCours"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="15dp"
+        android:text="Payez " />
+
+
+</LinearLayout>
