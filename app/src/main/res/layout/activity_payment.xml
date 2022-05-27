@@ -17,9 +17,11 @@
         android:layout_marginTop="50dp"
         android:fontFamily="serif"
         android:text="Payer Votre Docteur"
+        android:textStyle="italic"
         android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
-        android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textColor="@color/teal_700"
+        android:textSize="24sp"
+
 
         />
 
