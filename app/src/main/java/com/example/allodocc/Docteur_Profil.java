@@ -56,11 +56,11 @@ public class Docteur_Profil extends AppCompatActivity {
                 if (typeConsultation.equals("En ligne")){
                     Intent intent = new Intent(getApplicationContext(), chatActivity.class);
                     intent.putExtra("name",Name);
-                    intent.putExtra("UID",UID);
+                    intent.putExtra("UIDreceiver",UID);
                     startActivity(intent);
 
 
-                }else if (typeConsultation.equals("à domicile ")){
+               }else if (typeConsultation.equals("à domicile ")){
 
                 }
 

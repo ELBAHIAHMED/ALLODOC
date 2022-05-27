@@ -129,7 +129,7 @@ public class profilDocteur extends AppCompatActivity {
                 user.put ("Telephone",phone);
                 user.put ("prix consultation",Prix);
                 user.put("Specialite",Specialite);
-                user.put("type consultation",type);
+                user.put("typeConsultation",type);
 
 
                 documentReferencee.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {

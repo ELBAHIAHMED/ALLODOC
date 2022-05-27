@@ -73,7 +73,7 @@ public class Liste_Docteur extends AppCompatActivity {
 
         // below line is use to get data from Firebase
         // firestore using collection in android.
-        db.collection("Docteur").whereEqualTo("type consultation",TypeConsultation)
+        db.collection("Docteur").whereEqualTo("typeConsultation",TypeConsultation)
                 .whereEqualTo("Specialite",Specialite)
                 .get()
                 .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {

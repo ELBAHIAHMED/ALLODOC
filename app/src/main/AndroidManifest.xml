@@ -16,7 +16,8 @@
         android:theme="@style/Theme.AlloDOC">
         <activity
             android:name="com.example.allodocc.chatActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name="com.example.allodocc.recherche"
             android:exported="false" />
