@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -20,6 +22,9 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 public class recherche extends AppCompatActivity {
     ImageView buttonProfil,déconnecter ;
@@ -28,6 +33,9 @@ public class recherche extends AppCompatActivity {
     FirebaseAuth firebaseAuth ;
     Button verificationEmail ;
     FirebaseFirestore fStore ;
+    FirebaseFirestore firebaseFirestore;
+    StorageReference storageReference ;
+    LocationManager locationManager;
     String userId;
     TextView email ;
     @Override
@@ -44,8 +52,15 @@ public class recherche extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         userId= firebaseAuth.getCurrentUser().getUid();
+        storageReference= FirebaseStorage.getInstance().getReference();
         FirebaseUser utilisateur = firebaseAuth.getCurrentUser();
-
+        StorageReference profileRef = storageReference.child("users/"+userId+"/profile.jpg") ;
+        profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Picasso.get().load(uri).into(buttonProfil);
+            }
+        });
         chercher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

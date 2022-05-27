@@ -61,7 +61,7 @@ public class Liste_Docteur extends AppCompatActivity {
         imageBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),ChoixConsultation.class));
+                startActivity(new Intent(getApplicationContext(),recherche.class));
 
             }
         });

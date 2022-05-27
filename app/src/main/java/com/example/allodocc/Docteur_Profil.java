@@ -53,7 +53,12 @@ public class Docteur_Profil extends AppCompatActivity {
         MettreEnContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (typeConsultation.equals("en ligne")){
+                if (typeConsultation.equals("En ligne")){
+                    Intent intent = new Intent(getApplicationContext(), chatActivity.class);
+                    intent.putExtra("name",Name);
+                    intent.putExtra("UID",UID);
+                    startActivity(intent);
+
 
                 }else if (typeConsultation.equals("à domicile ")){
 
