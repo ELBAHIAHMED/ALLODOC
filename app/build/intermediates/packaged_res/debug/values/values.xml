@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="spécialité">
+        <item>choisir la spécialité</item>
+        <item>dentiste</item>
+        <item>dermatologue</item>
+        <item>cardiologue</item>
+    </string-array>
+    <string-array name="typeConsultation">
+        <item>Type de la consulation</item>
+        <item>à domicile</item>
+        <item>En ligne</item>
+
+    </string-array>
+    <color name="Vert">#4CAF50</color>
+    <color name="background">#E5E5E5</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FFD10A0A</color>
+    <color name="teal_200">#F003DAC5</color>
+    <color name="teal_700">#03A9F4</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="action_geolocate">Pick Place</string>
+    <string name="allo_mon_docteur">ALLO MON DOCTEUR !</string>
+    <string name="app_name">alloDOC</string>
+    <string name="app_namee">Current Place</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_web_client_id" translatable="false">283882321425-724sim78ikj2jl9def6r9egdr1uj1mi2.apps.googleusercontent.com</string>
+    <string name="entrer_votre_e_mail">Entrer votre e-mail</string>
+    <string name="entrer_votre_mot_de_passe">Entrer votre mot de passe</string>
+    <string name="gcm_defaultSenderId" translatable="false">283882321425</string>
+    <string name="google_api_key" translatable="false">AIzaSyB_yN7itnJU3ibGVtgTotDacOVsQuvtr5I</string>
+    <string name="google_app_id" translatable="false">1:283882321425:android:7f9b63e4f54430784ce3b0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB_yN7itnJU3ibGVtgTotDacOVsQuvtr5I</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyDARL5Kv_Mz4q_VeNyc2jWjAWdeeEB6n94</string>
+    <string name="google_maps_key_instructions" templateMergeStrategy="replace"><!--
+    TODO: Before you run your application, you need a Google Maps API key.
+    To get one, follow this link, follow the directions and press "Create" at the end:
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=17:8A:66:F5:C7:FF:50:E3:77:FB:79:8A:79:3F:30:43:FC:D6:CE:61%3Bteamtreehouse.com.iamhere
+    You can also add your credentials to an existing key, using this line:
+    17:8A:66:F5:C7:FF:50:E3:77:FB:79:8A:79:3F:30:43:FC:D6:CE:61;teamtreehouse.com.iamhere
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    --></string>
+    <string name="google_storage_bucket" translatable="false">allodoc-d4256.appspot.com</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="project_id" translatable="false">allodoc-d4256</string>
+    <string name="se_connecter">se connecter</string>
+    <string name="title_activity_localisation">Localisation</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_placepicker2">placepicker2</string>
+    <string name="todo">TODO</string>
+    <string name="vous_n_avez_pas_de_compte_enregistrez_vous">Vous n’avez pas de compte ? Enregistrez-vous</string>
+    <string name="vous_sentez_malade_vous_cherchez_un_m_decin_pour_une_consultation_en_ligne_ou_domicile_ici_vous_trouverez_ce_que_vous_cherchez">Vous sentez malade ? Vous cherchez un médecin pour une consultation en ligne ou à domicile ?ICI , vous trouverez ce que vous cherchez .</string>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar"/>
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+
+    </style>
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.AlloDOC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\image_lv_item.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\image_lv_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_info_contents.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\custom_info_contents.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_liste_docteur.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_liste_docteur.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_liste_patients.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_liste_patients.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_inscription.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_inscription.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_accueil_doc.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_accueil_doc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_recherche.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_recherche.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profil_docteur.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_profil_docteur.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_save_position.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_save_position.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_choix_consultation.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_choix_consultation.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pick_place.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_pick_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_docteur_profil.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_docteur_profil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_acceuil_admin.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_acceuil_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_consultation_domicile.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_consultation_domicile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_patient_adapter.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_patient_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_user_profil.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_user_profil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_connexion.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_connexion.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ajout_docteur.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_ajout_docteur.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_validation.xml",
+        "source": "C:\\Users\\ELBAHI\\Desktop\\ALLODOC\\app\\src\\main\\res\\layout\\activity_validation.xml"
+    }
+]

@@ -1,0 +1,407 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.allodoc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:10:5-76
+15-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:10:22-73
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+25
+26        <intent>
+26-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\ELBAHI\.gradle\caches\transforms-3\b38f9e7265f3866b4b95cdde055e2b8a\transformed\jetified-tiles-1.1.0-alpha04\AndroidManifest.xml:10:9-12:18
+27            <action android:name="androidx.wear.tiles.action.BIND_UPDATE_REQUESTER" />
+27-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\ELBAHI\.gradle\caches\transforms-3\b38f9e7265f3866b4b95cdde055e2b8a\transformed\jetified-tiles-1.1.0-alpha04\AndroidManifest.xml:11:13-87
+27-->[androidx.wear.tiles:tiles:1.1.0-alpha04] C:\Users\ELBAHI\.gradle\caches\transforms-3\b38f9e7265f3866b4b95cdde055e2b8a\transformed\jetified-tiles-1.1.0-alpha04\AndroidManifest.xml:11:21-84
+28        </intent>
+29    </queries>
+30
+31    <application
+31-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:10:5-97:19
+32        android:allowBackup="true"
+32-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:11:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.7.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\cea0d5780d085b5c3c8144b4d4786549\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:12:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:13:9-41
+38        android:roundIcon="@drawable/logo"
+38-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:14:9-43
+39        android:supportsRtl="true"
+39-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:15:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.AlloDOC" >
+41-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:16:9-45
+42        <activity
+42-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:17:9-19:40
+43            android:name="com.example.allodocc.Utilisateur.Liste_Patients"
+43-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:18:13-75
+44            android:exported="false" />
+44-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:19:13-37
+45        <activity
+45-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:20:9-22:40
+46            android:name="com.example.allodocc.Utilisateur.Patient_Adapter"
+46-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:21:13-76
+47            android:exported="false" />
+47-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:22:13-37
+48        <activity
+48-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:23:9-25:40
+49            android:name="com.example.allodocc.Docteur.Accueil_Doc"
+49-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:24:13-68
+50            android:exported="false" />
+50-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:25:13-37
+51        <activity
+51-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:26:9-28:40
+52            android:name="com.example.allodocc.Validation"
+52-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:27:13-59
+53            android:exported="false" />
+53-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:28:13-37
+54        <activity
+54-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:29:9-31:40
+55            android:name="com.example.allodocc.Utilisateur.recherche"
+55-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:30:13-70
+56            android:exported="false" />
+56-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:31:13-37
+57        <activity
+57-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:32:9-34:40
+58            android:name="com.example.allodocc.Docteur.Docteur_Profil"
+58-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:33:13-71
+59            android:exported="false" />
+59-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:34:13-37
+60        <activity
+60-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:35:9-37:40
+61            android:name="com.example.allodocc.Docteur.Liste_Docteur"
+61-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:36:13-70
+62            android:exported="false" />
+62-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:37:13-37
+63        <activity
+63-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:38:9-40:40
+64            android:name="com.example.allodocc.Consultation_Domicile"
+64-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:39:13-70
+65            android:exported="false" />
+65-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:40:13-37
+66        <activity
+66-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:41:9-43:40
+67            android:name="com.example.allodocc.savePosition"
+67-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:42:13-61
+68            android:exported="false" />
+68-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:43:13-37
+69        <!--
+70             TODO: Before you run your application, you need a Google Maps API key.
+71
+72             To get one, follow the directions here:
+73
+74                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+75
+76             Once you have your API key (it starts with "AIza"), define a new property in your
+77             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+78             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+79        -->
+80        <meta-data
+80-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:55:9-57:71
+81            android:name="com.google.android.geo.API_KEY"
+81-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:56:13-58
+82            android:value="AIzaSyDARL5Kv_Mz4q_VeNyc2jWjAWdeeEB6n94" /> <!-- AIzaSyCWmXkr1N0eCE8DAMR9vwf0_3zs27pDIq8 -->
+82-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:57:13-68
+83        <activity
+83-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:58:9-60:40
+84            android:name="com.example.allodocc.MapsActivity"
+84-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:59:13-61
+85            android:exported="false" />
+85-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:60:13-37
+86        <activity
+86-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:61:9-64:59
+87            android:name="com.example.allodocc.Maps"
+87-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:62:13-53
+88            android:exported="false"
+88-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:63:13-37
+89            android:label="@string/title_activity_maps" />
+89-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:64:13-56
+90        <activity
+90-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:65:9-68:59
+91            android:name="com.example.allodocc.acceuilADMIN"
+91-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:66:13-61
+92            android:exported="false"
+92-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:67:13-37
+93            android:label="@string/title_activity_maps" />
+93-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:68:13-56
+94        <activity
+94-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:69:9-72:59
+95            android:name="com.example.allodocc.Docteur.ajoutDOCTEUR"
+95-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:70:13-69
+96            android:exported="false"
+96-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:71:13-37
+97            android:label="@string/title_activity_maps" />
+97-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:72:13-56
+98        <activity
+98-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:73:9-75:39
+99            android:name="com.example.allodocc.Utilisateur.UserProfil"
+99-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:74:13-71
+100            android:exported="true" />
+100-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:75:13-36
+101        <activity
+101-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:76:9-78:39
+102            android:name="com.example.allodocc.Docteur.profilDocteur"
+102-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:77:13-70
+103            android:exported="true" />
+103-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:78:13-36
+104        <activity
+104-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:79:9-81:40
+105            android:name="com.example.allodocc.ChoixConsultation"
+105-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:80:13-66
+106            android:exported="false" />
+106-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:81:13-37
+107        <activity
+107-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:82:9-84:40
+108            android:name="com.example.allodocc.Utilisateur.inscription"
+108-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:83:13-72
+109            android:exported="false" />
+109-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:84:13-37
+110        <activity
+110-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:85:9-87:40
+111            android:name="com.example.allodocc.connexion"
+111-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:86:13-58
+112            android:exported="false" />
+112-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:87:13-37
+113        <activity
+113-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:88:9-96:20
+114            android:name="com.example.allodocc.MainActivity"
+114-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:89:13-61
+115            android:exported="true" >
+115-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:90:13-36
+116            <intent-filter>
+116-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:91:13-95:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:92:17-69
+117-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:92:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:94:17-77
+119-->C:\Users\ELBAHI\Desktop\ALLODOC\app\src\main\AndroidManifest.xml:94:27-74
+120            </intent-filter>
+121        </activity>
+122
+123        <provider
+123-->[com.squareup.picasso:picasso:2.71828] C:\Users\ELBAHI\.gradle\caches\transforms-3\6d08fcdcae4d3612b32cbd472eaf1ab4\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+124            android:name="com.squareup.picasso.PicassoProvider"
+124-->[com.squareup.picasso:picasso:2.71828] C:\Users\ELBAHI\.gradle\caches\transforms-3\6d08fcdcae4d3612b32cbd472eaf1ab4\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+125            android:authorities="com.example.allodoc.com.squareup.picasso"
+125-->[com.squareup.picasso:picasso:2.71828] C:\Users\ELBAHI\.gradle\caches\transforms-3\6d08fcdcae4d3612b32cbd472eaf1ab4\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+126            android:exported="false" /> <!-- Autocomplete -->
+126-->[com.squareup.picasso:picasso:2.71828] C:\Users\ELBAHI\.gradle\caches\transforms-3\6d08fcdcae4d3612b32cbd472eaf1ab4\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+127        <activity
+127-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:16:9-23:20
+128            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+128-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:17:13-91
+129            android:exported="false"
+129-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:18:13-37
+130            android:hardwareAccelerated="true"
+130-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:19:13-47
+131            android:label="@string/places_autocomplete_label"
+131-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:20:13-62
+132            android:theme="@style/PlacesAutocompleteThemeOverlay"
+132-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:21:13-66
+133            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+133-->[com.google.android.libraries.places:places:1.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\73e593ff195e31318800e331aed8b5f6\transformed\jetified-places-1.1.0\AndroidManifest.xml:22:13-71
+134        </activity>
+135
+136        <service
+136-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:17:9-23:19
+137            android:name="com.google.firebase.components.ComponentDiscoveryService"
+137-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:18:13-84
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:19:13-37
+140            <meta-data
+140-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+141                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+141-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\a9dc67e8966b7c620fc1b73677be09cb\transformed\jetified-firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ELBAHI\.gradle\caches\transforms-3\618c57e35203a9ef113d02f0045b95c1\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+144                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+144-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ELBAHI\.gradle\caches\transforms-3\618c57e35203a9ef113d02f0045b95c1\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ELBAHI\.gradle\caches\transforms-3\618c57e35203a9ef113d02f0045b95c1\transformed\jetified-firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\43f22f73155ffa03aba6b7de39b69fbe\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+147                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+147-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\43f22f73155ffa03aba6b7de39b69fbe\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\43f22f73155ffa03aba6b7de39b69fbe\transformed\jetified-firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:67:13-69:85
+150                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+150-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:68:17-109
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:69:17-82
+152        </service> <!-- Needs to be explicitly declared on P+ -->
+153        <uses-library
+153-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+154            android:name="org.apache.http.legacy"
+154-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+155            android:required="false" />
+155-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\b63204a266534fb393d1545c3064f1a3\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+156
+157        <activity
+157-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:27:9-44:20
+158            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+158-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:28:13-80
+159            android:excludeFromRecents="true"
+159-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:29:13-46
+160            android:exported="true"
+160-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:30:13-36
+161            android:launchMode="singleTask"
+161-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:31:13-44
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+162-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:32:13-72
+163            <intent-filter>
+163-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:33:13-43:29
+164                <action android:name="android.intent.action.VIEW" />
+164-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+164-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+166-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+167                <category android:name="android.intent.category.BROWSABLE" />
+167-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+167-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+168
+169                <data
+169-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+170                    android:host="firebase.auth"
+170-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+171                    android:path="/"
+171-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+172                    android:scheme="genericidp" />
+172-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+173            </intent-filter>
+174        </activity>
+175        <activity
+175-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:45:9-62:20
+176            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+176-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:46:13-79
+177            android:excludeFromRecents="true"
+177-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:47:13-46
+178            android:exported="true"
+178-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:48:13-36
+179            android:launchMode="singleTask"
+179-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:49:13-44
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+180-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:50:13-72
+181            <intent-filter>
+181-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:51:13-61:29
+182                <action android:name="android.intent.action.VIEW" />
+182-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:17-69
+182-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:34:25-66
+183
+184                <category android:name="android.intent.category.DEFAULT" />
+184-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:17-76
+184-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:36:27-73
+185                <category android:name="android.intent.category.BROWSABLE" />
+185-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:17-78
+185-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:37:27-75
+186
+187                <data
+187-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:39:17-42:51
+188                    android:host="firebase.auth"
+188-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:40:21-49
+189                    android:path="/"
+189-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:41:21-37
+190                    android:scheme="recaptcha" />
+190-->[com.google.firebase:firebase-auth:21.0.2] C:\Users\ELBAHI\.gradle\caches\transforms-3\a291c23c19b8b5edefc88e8d7038b54a\transformed\jetified-firebase-auth-21.0.2\AndroidManifest.xml:42:21-48
+191            </intent-filter>
+192        </activity>
+193
+194        <provider
+194-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+195            android:name="com.google.firebase.provider.FirebaseInitProvider"
+195-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+196            android:authorities="com.example.allodoc.firebaseinitprovider"
+196-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+198            android:exported="false"
+198-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+199            android:initOrder="100" />
+199-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\da94da622c2d1e3b358dd5038d011788\transformed\jetified-firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+200
+201        <activity
+201-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\6c5d69b26162341f13c15e1ccced945e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+202            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+202-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\6c5d69b26162341f13c15e1ccced945e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+203            android:exported="false"
+203-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\6c5d69b26162341f13c15e1ccced945e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+204-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ELBAHI\.gradle\caches\transforms-3\6c5d69b26162341f13c15e1ccced945e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+205
+206        <meta-data
+206-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\7d47ab6134cc2ddc63f5bbfcba8ca296\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+207            android:name="com.google.android.gms.version"
+207-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\7d47ab6134cc2ddc63f5bbfcba8ca296\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+208            android:value="@integer/google_play_services_version" />
+208-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\7d47ab6134cc2ddc63f5bbfcba8ca296\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+209
+210        <provider
+210-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+211            android:name="androidx.startup.InitializationProvider"
+211-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+212            android:authorities="com.example.allodoc.androidx-startup"
+212-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+213            android:exported="false" >
+213-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+214            <meta-data
+214-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+215                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+215-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+216                android:value="androidx.startup" />
+216-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\e18a5b0dcf6014e1c5fb5e054670e2ce\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+217            <meta-data
+217-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\18683eb7e57b03160ef4a25d65944f5a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+218                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+218-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\18683eb7e57b03160ef4a25d65944f5a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+219                android:value="androidx.startup" />
+219-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ELBAHI\.gradle\caches\transforms-3\18683eb7e57b03160ef4a25d65944f5a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+220        </provider>
+221    </application>
+222
+223</manifest>

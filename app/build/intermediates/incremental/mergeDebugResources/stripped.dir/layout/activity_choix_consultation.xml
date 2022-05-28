@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    >
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="      EMAIL NON ENCORE VERIFIÉ "
+        android:textAppearance="@style/ShapeAppearance.Material3.Tooltip"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:visibility="gone"
+
+        />
+    <Button
+        android:id="@+id/verificationEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="Verifier maintenant"
+        android:backgroundTint="@color/black"
+        android:visibility="gone"
+
+        />
+
+    <ImageButton
+        android:id="@+id/buttonProfil"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginVertical="12dp"
+        android:layout_marginLeft="320dp"
+
+        android:background="@drawable/round_button"
+        android:contentDescription="Profil"
+
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo" />
+
+
+    <Button
+        android:id="@+id/consultationEnLigne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="   Consultation en ligne"
+        android:backgroundTint="@color/teal_700"
+
+        />
+    <Button
+        android:id="@+id/consultationADomicile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="Consultation à domicile"
+        android:backgroundTint="@color/teal_700"
+
+        />
+
+
+
+</LinearLayout>

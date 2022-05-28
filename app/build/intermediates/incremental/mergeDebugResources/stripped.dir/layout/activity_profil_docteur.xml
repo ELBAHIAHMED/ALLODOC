@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+
+    android:rotation="-360">
+
+    <TextView
+        android:id="@+id/salam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/photoProfil"
+        android:width="230dp"
+        android:text="Salut Ahmed"
+
+        android:textSize="40dp"
+        android:textStyle="italic|bold" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/photoProfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:shapeAppearanceOverlay="@style/Circular" />
+
+    <Button
+        android:id="@+id/changer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="580dp"
+        android:width="140dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="10dp"
+        android:text="Save" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Nom Complet  : "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nomDocteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="190dp"
+        android:width="250dp"
+        android:background="@drawable/edittext_rounded_corners"
+
+        android:minHeight="48dp"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:text="Email  : "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailDocteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="270dp"
+        android:width="250dp"
+        android:background="@drawable/edittext_rounded_corners"
+
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:text="N° Telephone  : "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/telDocteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="360dp"
+        android:width="250dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:hint="Your Phone"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:text=" Spécialité "
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/specialite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="420dp"
+        android:width="250dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:hint="spécialité"
+        android:text=""
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="470dp"
+        android:text=" Prix consultation"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="470dp"
+        android:width="250dp"
+        android:background="@drawable/edittext_rounded_corners"
+        android:hint="prix consultation"
+        android:text=""
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="@color/background"
+        android:entries="@array/typeConsultation"
+        android:hint="spécialité"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:text=" Type consultation"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="580dp"
+        android:width="140dp"
+        android:backgroundTint="@color/teal_700"
+        android:padding="10dp"
+        android:text="Save" />
+
+
+
+
+</RelativeLayout>
