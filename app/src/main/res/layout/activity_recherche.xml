@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/background"
+    tools:context="com.example.allodocc.recherche">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/buttonProfil"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:padding="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tint="@color/white"
+        android:layout_marginVertical="12dp"
+        android:background="@drawable/round_button"
+        android:contentDescription="Profil"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/déconnecter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/background"
+        android:padding="6dp"
+        android:src="@drawable/ic_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginEnd="88dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Trouver votre docteur"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/déconnecter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/background_content_bottom"
+        android:backgroundTint="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonProfil"
+        tools:ignore="NotSibling">
+
+        <Spinner
+            android:id="@+id/specialite"
+            android:layout_width="279dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0.5dp"
+            android:backgroundTint="@color/background"
+
+            android:entries="@array/spécialité"
+            android:hint="spécialité"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/typeConsultation"
+            android:layout_width="279dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="@color/background"
+            android:hint="spécialité"
+            android:entries="@array/typeConsultation"
+            android:inputType="textPassword"
+            android:paddingStart="20dp"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/trouve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:padding="15dp"
+            android:text="chercher"
+            android:backgroundTint="@color/teal_700"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="      EMAIL NON ENCORE VERIFIÉ "
+            android:textAppearance="@style/ShapeAppearance.Material3.Tooltip"
+            android:textColor="@color/red"
+            android:textSize="16sp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="550dp"
+            android:layout_gravity="left"
+            android:visibility="gone"
+
+            />
+        <Button
+            android:id="@+id/verificationEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:padding="15dp"
+            android:text="Verifier maintenant"
+            android:backgroundTint="@color/black"
+            android:visibility="gone"
+
+            />
+
+    </FrameLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

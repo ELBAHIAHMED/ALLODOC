@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">alloDOC</string>
+
+
+    <string name="facebook_app_id">1054035748549610</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+
+
+
+    <string name="allo_mon_docteur">ALLO MON DOCTEUR !</string>
+    <string name="todo">TODO</string>
+    <string name="vous_sentez_malade_vous_cherchez_un_m_decin_pour_une_consultation_en_ligne_ou_domicile_ici_vous_trouverez_ce_que_vous_cherchez">Vous sentez malade ? Vous cherchez un médecin pour une consultation en ligne ou à domicile ?ICI , vous trouverez ce que vous cherchez .</string>
+    <string name="entrer_votre_e_mail">Entrer votre e-mail</string>
+    <string name="entrer_votre_mot_de_passe">Entrer votre mot de passe</string>
+    <string name="se_connecter">se connecter</string>
+    <string name="vous_n_avez_pas_de_compte_enregistrez_vous">Vous n’avez pas de compte ? Enregistrez-vous</string>
+    <string name="title_activity_localisation">Localisation</string>
+    <string name="app_namee">Current Place</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_geolocate">Pick Place</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+    <string name="title_activity_placepicker2">placepicker2</string>
+    <string-array name="spécialité">
+        <item>choisir la spécialité</item>
+        <item>dentiste</item>
+        <item>dermatologue</item>
+        <item>cardiologue</item>
+    </string-array>
+    <string-array name="typeConsultation">
+        <item>Type de la consulation</item>
+        <item>à domicile</item>
+        <item>En ligne</item>
+
+    </string-array>
+</resources>
