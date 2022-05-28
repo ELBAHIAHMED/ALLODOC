@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/edittext_rounded_corners.xml" value="0.246" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1695" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/round_button.xml" value="0.155" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/shape_button.xml" value="0.137" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_choix_consultation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_connexion.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_inscription.xml" value="0.2" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_user_profil.xml" value="0.264" />
+        <entry key="..\:/Users/EL BAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1745" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_acceuil_admin.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_accueil_doc.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_choix_consultation.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_docteur_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_inscription.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_liste_docteur.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_liste_patients.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_patient_adapter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_profil_docteur.xml" value="0.2074074074074074" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_recherche.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/activity_validation.xml" value="0.176" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/custom_info_contents.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/layout/image_lv_item.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/ELBAHI/Desktop/ALLODOC-master/app/src/main/res/menu/menu.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable-anydpi/ic_geolocate.xml" value="0.1585" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/eclipse.xml" value="0.1585" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/editborder.xml" value="0.215" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/edittext_rounded_corners.xml" value="0.1585" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_baseline_add_location_alt_24.xml" value="0.1425" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1585" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_geolocate_background.xml" value="0.1025" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1945" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1025" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/round_button.xml" value="0.1805" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/drawable/shape_button.xml" value="0.1805" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_choix_consultation.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_connexion.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_consultation_domicile.xml" value="0.2" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_docteur_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_inscription.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_liste_docteur.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_localisation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_pick_place.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_placepicker2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_save_position.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/activity_user_profil.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/custom_info_contents.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/image_lv_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/layout/menu.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/menu/current_place_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/menu/menu.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/ELBAHI/Desktop/GroupIt/ANDROID_APP/app/src/main/res/mipmap-anydpi-v26/ic_geolocate_round.xml" value="0.148" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/drawable/eclipse.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/drawable/shape_button.xml" value="0.206" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_choix_consultation.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_connexion.xml" value="0.2390625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_inscription.xml" value="0.268" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/alloDOC/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/drawable/background_content_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_Recherche.xml" value="0.2" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_acceuil_admin.xml" value="0.2390625" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_adminpage.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_ajout_docteur.xml" value="0.2390625" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_choix_consultation.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_connexion.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_consultation_domicile.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_docteur_profil.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_inscription.xml" value="0.2390625" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_liste_docteur.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_profil_docteur.xml" value="0.2390625" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_recherche.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/activity_user_profil.xml" value="0.2546875" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/custom_info_contents.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/layout/image_lv_item.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/menu/current_place_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/User/Downloads/al/ALLODOC-ELBAHI/app/src/main/res/menu/menu.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

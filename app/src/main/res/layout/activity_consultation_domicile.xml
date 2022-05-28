@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+
+    >
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:text="CHERCHER VOTRE DOCTEUR "-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+<!--        android:textStyle=" ||italic"-->
+<!--        android:textSize="24sp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="140dp"-->
+
+<!--        />-->
+
+
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/yourLocalisation"-->
+
+<!--        android:layout_width="279dp"-->
+<!--        android:layout_height="57dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="210dp"-->
+<!--        android:backgroundTint="@color/background"-->
+<!--        android:hint="Votre Localisation"-->
+<!--        android:inputType="textAutoComplete"-->
+<!--        android:paddingStart="20dp" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/buttonLocalisation"-->
+<!--        android:layout_width="53dp"-->
+<!--        android:layout_height="61dp"-->
+<!--        android:layout_marginTop="210dp"-->
+<!--        android:layout_toRightOf="@+id/yourLocalisation"-->
+<!--        android:background="#F6F6F6"-->
+<!--        android:src="@drawable/ic_baseline_add_location_alt_24"/>-->
+
+<!--&lt;!&ndash;    <com.google.android.material.textfield.TextInputEditText&ndash;&gt;-->
+<!--&lt;!&ndash;        style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="279dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="57dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="290dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:backgroundTint="@color/background">&ndash;&gt;-->
+<!--&lt;!&ndash;    <AutoCompleteTextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:inputType="none"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Consultation à domicile"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </com.google.android.material.textfield.TextInputEditText>&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;    <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/email"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="279dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="57dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="290dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:backgroundTint="@color/background"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:hint="Entrer votre e-mail"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:inputType="textEmailAddress"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingStart="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="@color/black" />&ndash;&gt;-->
+<!--&lt;!&ndash;    <Spinner&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="290dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:spinnerMode="dialog"&ndash;&gt;-->
+
+<!--    <EditText-->
+
+<!--        android:layout_width="279dp"-->
+<!--        android:layout_height="57dp"-->
+<!--        android:layout_below="@+id/yourLocalisation"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="53dp"-->
+<!--        android:backgroundTint="@color/background"-->
+
+<!--        android:hint="Entrer votre mot de passe"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:paddingStart="20dp"-->
+<!--        android:textColor="@color/black" />-->
+<!--    <EditText-->
+<!--        android:id="@+id/confirmMotDePasse"-->
+<!--        android:layout_width="279dp"-->
+<!--        android:layout_height="57dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="390dp"-->
+<!--        android:backgroundTint="@color/background"-->
+<!--        android:hint="confirmer votre mot de passe"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_centerHorizontal="true"-->
+
+<!--        android:paddingStart="20dp"-->
+<!--        android:textColor="@color/black" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/enregistrer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="490dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:text="enregistrer"-->
+<!--        android:backgroundTint="@color/teal_700"-->
+<!--        android:layout_centerHorizontal="true"-->
+
+<!--        />-->
+<!--    <ProgressBar-->
+<!--        android:id="@+id/enCours"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:visibility="invisible" />-->
+
+
+</RelativeLayout>
