@@ -74,7 +74,7 @@ public class profilDocteur extends AppCompatActivity {
                 Picasso.get().load(uri).into(photoProfil);
             }
         });
-        photoProfil.setOnClickListener(new View.OnClickListener() {
+        salut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // ouvrir le galerie
@@ -96,7 +96,6 @@ public class profilDocteur extends AppCompatActivity {
             public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
 
                 nomDocteur.setText(value.getString("name"));
-                salut.setText("Salut "+value.getString("name"));
                 emailDocteur.setText(value.getString("email"));
                 telDocteur.setText(value.getString("Telephone"));
                 prix.setText(value.getString("prix"));

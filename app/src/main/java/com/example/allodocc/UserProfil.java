@@ -127,7 +127,6 @@ public class UserProfil extends AppCompatActivity implements LocationListener {
             public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
 
                 name.setText(value.getString("nomCompet"));
-                textSalut.setText("Salut "+value.getString("nomCompet"));
                 Email.setText(value.getString("email"));
                if (value.getString("Telephone")!=null){
                 Phone.setText(value.getString("Telephone"));}
@@ -137,7 +136,7 @@ public class UserProfil extends AppCompatActivity implements LocationListener {
             }
 
         });
-        photoProfil.setOnClickListener(new View.OnClickListener() {
+        textSalut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             // ouvrir le galerie

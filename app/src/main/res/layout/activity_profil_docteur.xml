@@ -17,9 +17,8 @@
         android:layout_marginTop="60dp"
         android:layout_toRightOf="@+id/photoProfil"
         android:width="230dp"
-        android:text="Salut Ahmed"
-
-        android:textSize="40dp"
+        android:text="charger/ modifier photo de profil"
+        android:textColor="@color/teal_700"
         android:textStyle="italic|bold" />
 
 

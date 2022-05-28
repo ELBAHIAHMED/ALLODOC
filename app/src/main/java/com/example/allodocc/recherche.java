@@ -3,6 +3,7 @@ package com.example.allodocc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,9 +12,13 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.allodoc.R;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.squareup.picasso.Picasso;
 
 public class recherche extends AppCompatActivity {
     ImageView imageBack,déconnecter ;
@@ -21,6 +26,8 @@ public class recherche extends AppCompatActivity {
     Button chercher;
     FirebaseAuth firebaseAuth ;
     FirebaseFirestore fStore ;
+    StorageReference storageReference ;
+
     String userId;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +41,16 @@ public class recherche extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         userId= firebaseAuth.getCurrentUser().getUid();
+        fStore= FirebaseFirestore.getInstance();
+        storageReference= FirebaseStorage.getInstance().getReference();
+        String UID = firebaseAuth.getCurrentUser().getUid();
+        StorageReference profileRef = storageReference.child("users/"+UID+"/profile.jpg") ;
+        profileRef.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Picasso.get().load(uri).into(imageBack);
+            }
+        });
 
         chercher.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +73,7 @@ public class recherche extends AppCompatActivity {
         imageBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),connexion.class));
+                startActivity(new Intent(getApplicationContext(),UserProfil.class));
             }
         });
         déconnecter.setOnClickListener(new View.OnClickListener() {
